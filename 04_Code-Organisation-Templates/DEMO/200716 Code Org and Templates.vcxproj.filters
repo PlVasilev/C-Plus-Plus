@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{94be4094-7184-4875-b51f-7c9f38dfc09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\01">
+      <UniqueIdentifier>{7bba6f7a-80e9-4db3-b924-18d0152ee2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\02">
+      <UniqueIdentifier>{9c46fd97-5f52-4ef8-b2cc-74f3f9b4a047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\03">
+      <UniqueIdentifier>{aff65f07-9e60-4bb1-83d8-a7d9857f6eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\04">
+      <UniqueIdentifier>{d7c52bf7-dcd1-4dae-bd01-b621e979eec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\05">
+      <UniqueIdentifier>{3d3c140f-9c31-4c43-b46e-53d3c6a7c85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\06">
+      <UniqueIdentifier>{649c74ce-09b6-49aa-9850-376eb2822738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\07">
+      <UniqueIdentifier>{d3e59fea-40e3-4c39-9180-90b706fbd9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\08">
+      <UniqueIdentifier>{e7c6e35a-4926-43e7-b7d6-99c88fff0754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos\09">
+      <UniqueIdentifier>{a6c395ec-9823-43ba-9f3b-47111ccaad9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="200716 Code Org and Templates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\01. IncludeAndDefine\IncludeAndDefineMain.cpp">
+      <Filter>Source Files\Demos\01</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\02. PitfallMacrosBracketsInExpressions\02. PitfallMissingBracketsInMacroExpressions.cpp">
+      <Filter>Source Files\Demos\02</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\03. ConditionalInclusionsAndIncludeGuards\ConditionalInclusionsAndIncludeGuards.cpp">
+      <Filter>Source Files\Demos\03</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\04. SeparatingDeclarationAndImplementation\04. SeparatingMemberDefinitions.cpp">
+      <Filter>Source Files\Demos\04</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\05. HeaderAndSourceFiles\Company.cpp">
+      <Filter>Source Files\Demos\05</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\05. HeaderAndSourceFiles\HeaderAndSourceFilesMain.cpp">
+      <Filter>Source Files\Demos\05</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\06. FunctionTemplates\FunctionTemplatesMain.cpp">
+      <Filter>Source Files\Demos\06</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\07. ClassTemplates\ClassTemplatesMain.cpp">
+      <Filter>Source Files\Demos\07</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\08. AccessingTemplateSubtype.cpp\08. AccessingTemplateSubtype.cpp">
+      <Filter>Source Files\Demos\08</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\09. TemplateSpecialization\09. TemplateSpecialization.cpp">
+      <Filter>Source Files\Demos\09</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demos\01. IncludeAndDefine\Macros.h">
+      <Filter>Source Files\Demos\01</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\03. ConditionalInclusionsAndIncludeGuards\HeaderGuardedFile.h">
+      <Filter>Source Files\Demos\03</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\03. ConditionalInclusionsAndIncludeGuards\OtherFileAlsoIncludingHeaderGuardedFile.h">
+      <Filter>Source Files\Demos\03</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\05. HeaderAndSourceFiles\Company.h">
+      <Filter>Source Files\Demos\05</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\06. FunctionTemplates\Fraction.h">
+      <Filter>Source Files\Demos\06</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\07. ClassTemplates\Pair.h">
+      <Filter>Source Files\Demos\07</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
